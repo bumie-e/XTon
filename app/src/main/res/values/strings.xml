@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">XTon</string>
+    <string name="title_activity_all">All</string>
+    <string name="title_home">Market</string>
+    <string name="title_dashboard">Farmers</string>
+    <string name="title_notifications">Suppliers</string>
+    <string name="title_farm">Farm</string>
+    <string name="profile">Profile</string>
 </resources>
