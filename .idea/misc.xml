@@ -3,9 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/akinr/AndroidStudioProjects/XTon/app/src/main/res/drawable/bg_color.xml" value="0.1125" />
+        <entry key="..\:/Users/akinr/AndroidStudioProjects/XTon/app/src/main/res/drawable/ic_app_logo.xml" value="0.1125" />
+        <entry key="..\:/Users/akinr/AndroidStudioProjects/XTon/app/src/main/res/drawable/splash_background.xml" value="0.2203125" />
+        <entry key="..\:/Users/akinr/AndroidStudioProjects/XTon/app/src/main/res/drawable/splash_background_dark.xml" value="0.2203125" />
         <entry key="..\:/Users/akinr/AndroidStudioProjects/XTon/app/src/main/res/layout/activity_all.xml" value="0.12681159420289856" />
+        <entry key="..\:/Users/akinr/AndroidStudioProjects/XTon/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/Users/akinr/AndroidStudioProjects/XTon/app/src/main/res/layout/activity_main.xml" value="0.12681159420289856" />
+        <entry key="..\:/Users/akinr/AndroidStudioProjects/XTon/app/src/main/res/layout/activity_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/akinr/AndroidStudioProjects/XTon/app/src/main/res/layout/fragment_farm_item.xml" value="0.33" />
+        <entry key="..\:/Users/akinr/AndroidStudioProjects/XTon/app/src/main/res/layout/fragment_farm_item_list.xml" value="0.33" />
+        <entry key="..\:/Users/akinr/AndroidStudioProjects/XTon/app/src/main/res/layout/fragment_farmer_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/akinr/AndroidStudioProjects/XTon/app/src/main/res/layout/fragment_farmer_item_list.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/akinr/AndroidStudioProjects/XTon/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/akinr/AndroidStudioProjects/XTon/app/src/main/res/layout/fragment_supplier_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/akinr/AndroidStudioProjects/XTon/app/src/main/res/layout/fragment_supplier_item_list.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/akinr/AndroidStudioProjects/XTon/app/src/main/res/layout/product_item.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/akinr/AndroidStudioProjects/XTon/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/akinr/AndroidStudioProjects/XTon/app/src/main/res/menu/farm_menu.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>
@@ -14,5 +29,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.20416666666666666" />
+      </ProjectState>
+    </option>
   </component>
 </project>

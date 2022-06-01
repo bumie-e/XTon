@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.bumie.xton.placeholder.PlaceholderContent.PlaceholderItem;
-import com.bumie.xton.databinding.FragmentFarmItemBinding;
+import com.bumie.xton.databinding.FragmentSupplierItemBinding;
 
 import java.util.List;
 
@@ -16,18 +16,18 @@ import java.util.List;
  * {@link RecyclerView.Adapter} that can display a {@link PlaceholderItem}.
  * TODO: Replace the implementation with code for your data type.
  */
-public class FarmRecyclerViewAdapter extends RecyclerView.Adapter<FarmRecyclerViewAdapter.ViewHolder> {
+public class MySuppliersRecyclerViewAdapter extends RecyclerView.Adapter<MySuppliersRecyclerViewAdapter.ViewHolder> {
 
     private final List<PlaceholderItem> mValues;
 
-    public FarmRecyclerViewAdapter(List<PlaceholderItem> items) {
+    public MySuppliersRecyclerViewAdapter(List<PlaceholderItem> items) {
         mValues = items;
     }
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 
-        return new ViewHolder(FragmentFarmItemBinding.inflate(LayoutInflater.from(parent.getContext()), parent, false));
+        return new ViewHolder(FragmentSupplierItemBinding.inflate(LayoutInflater.from(parent.getContext()), parent, false));
 
     }
 
@@ -48,16 +48,15 @@ public class FarmRecyclerViewAdapter extends RecyclerView.Adapter<FarmRecyclerVi
         public final TextView mContentView;
         public PlaceholderItem mItem;
 
-        public ViewHolder(FragmentFarmItemBinding binding) {
+        public ViewHolder(FragmentSupplierItemBinding binding) {
             super(binding.getRoot());
-            mIdView = binding.textView3;
-            mContentView = binding.textView4;
+            mIdView = binding.textView19;
+            mContentView = binding.textView23;
         }
 
         @Override
         public String toString() {
-
-            return super.toString() + "'"+ mContentView.toString() +"'";
+            return super.toString() + " '" + mContentView.getText() + "'";
         }
     }
 }

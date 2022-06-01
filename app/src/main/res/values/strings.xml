@@ -6,4 +6,8 @@
     <string name="title_notifications">Suppliers</string>
     <string name="title_farm">Farm</string>
     <string name="profile">Profile</string>
+    <string name="search_hint">Search</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="profile_name">Profile Name</string>
+    <string name="search_title">Search</string>
 </resources>
